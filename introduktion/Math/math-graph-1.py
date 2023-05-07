@@ -2,11 +2,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-#ypoints = np.array([3, 5, 12, 17])
-
-#plt.plot(ypoints, marker = 'o')
-#plt.show()
-
 x = [1, 2, 5, 10]
 y = [2, 4, 7, 9]
 
