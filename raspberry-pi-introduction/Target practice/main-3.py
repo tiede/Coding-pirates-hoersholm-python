@@ -40,7 +40,5 @@ def draw():
   fill(middle) # Set the circle fill colour to middle
   circle(200, 200, 30) # Middle circle - x, y, width of the circle
 
-  shoot_arrow()
-
 # Keep this to run your code
 run(frame_rate=2)
