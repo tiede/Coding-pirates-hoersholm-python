@@ -31,11 +31,11 @@ print(datetime.now() + timedelta(days=100))
 
 roll_dice() # Call the roll dice function
 
-# born_day = input('Enter day of your birthday?:')
-# born_month = input('Enter month of your birthday?:')
-# born_year = input('Enter year of your birthday?:')
+born_day = input('Enter day of your birthday?:')
+born_month = input('Enter month of your birthday?:')
+born_year = input('Enter year of your birthday?:')
 
-# #date_str = '24/02/1975'
-# date_str = born_day + '/' + born_month + '/' + born_year
-# date = datetime.strptime(date_str, '%d/%m/%Y')6
-# print('You were born on', date.strftime('%A'))
+#date_str = '24/02/1975'
+date_str = born_day + '/' + born_month + '/' + born_year
+date = datetime.strptime(date_str, '%d/%m/%Y')6
+print('You were born on', date.strftime('%A'))

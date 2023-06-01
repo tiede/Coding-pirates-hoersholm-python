@@ -3,6 +3,7 @@
 from emoji import * 
 from datetime import *
 from random import randint
+
 import requests
 
 # Put function definitions under here
@@ -55,12 +56,3 @@ dato_som_date = datetime.strptime(dato, '%d/%m/%Y')
 print(dato_som_date)
 
 print('Du blev født på en', oversaet_ugedag(dato_som_date))
-
-dato_til_wiki = maaned + '/' + dag
-url = 'https://api.wikimedia.org/feed/v1/wikipedia/en/onthisday/births/' + dato_til_wiki
-svar = requests.get(url)
-data = svar.json()
-
-foedselsdage = data['births']
-for element in foedselsdage:
-    print(str(element['year']) + ' : ' + element['text'])
